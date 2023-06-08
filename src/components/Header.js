@@ -110,6 +110,60 @@ const Header = () => {
         </div>
 
         {/* header footer */}
+        <div className="header-main-footer">
+          <Row>
+            <Col>
+              <div className="header-main-footer-right text-header-top-main">
+                <ul>
+                  <li>
+                    <Link to="/">Đồ 1k freeship</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Điện thoại 1k</Link>
+                    <span>|</span>
+                  </li>
+
+                  <li>
+                    <Link to="/">Người yêu</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Dép</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Iphone14pro max</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Áo mưa</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Quần âu</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Giày</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Gấu bông</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Set đồ nữ</Link>
+                    <span>|</span>
+                  </li>
+                  <li>
+                    <Link to="/">Áo phông</Link>
+                  </li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </header>
   );

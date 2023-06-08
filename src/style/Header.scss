@@ -60,7 +60,8 @@
 }
 
 .header-main-top-left ul,
-.header-main-top-right ul {
+.header-main-top-right ul,
+.header-main-footer ul {
   display: flex;
   padding: 0px;
   li {
@@ -81,7 +82,8 @@
     }
   }
 }
-.header-main-top-right {
+.header-main-top-right,
+.header-main-footer {
   float: right;
   height: 34px;
 }
@@ -90,7 +92,8 @@
   z-index: 100;
 }
 .header-main-top-left ul li a:hover,
-.header-main-top-right ul li a:hover {
+.header-main-top-right ul li a:hover,
+.header-main-footer ul li a:hover {
   color: hsla(0, 0%, 100%, 0.7);
   cursor: pointer;
 }
@@ -113,7 +116,7 @@
 }
 
 .shopee-searchBar {
-  margin-top: 20px;
+  margin-top: 16px;
   width: 443px;
 }
 .header-search-bar {
@@ -124,11 +127,18 @@
   width: 60px;
 }
 
-.vr-facmen{
+.vr-facmen {
   margin-right: 10px;
   margin-left: 20px;
 }
-.icon-fishoppingss{
+.icon-fishoppingss {
   font-size: 36px;
   color: #fff;
+}
+
+// header footer
+.header-main-footer {
+  position: absolute;
+  top: 89px;
+  right: 72px;
 }
