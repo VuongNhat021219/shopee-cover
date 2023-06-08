@@ -1,0 +1,134 @@
+.header {
+  background-color: #ee4d2d;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+}
+
+.header-main {
+  height: 118.3px;
+  background: #d0011b;
+}
+
+.header-main-top {
+  height: 34px;
+}
+
+.text-header-top-main {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8125rem;
+  font-weight: 300;
+  padding: 0.25rem;
+  position: relative;
+  overflow: visible;
+  outline: 0;
+  padding-left: 0px;
+}
+
+.header-main-top-left ul,
+.header-main-top-right ul {
+  display: flex;
+  padding: 0px;
+  li {
+    padding-left: 0px;
+    list-style: none;
+    span {
+      padding-right: 6px;
+    }
+
+    a {
+      svg {
+        margin-bottom: 2px;
+        margin-right: 3px;
+      }
+      text-decoration: none;
+      color: #fff;
+      margin-right: 8px;
+    }
+  }
+}
+.header-main-top-right {
+  float: right;
+  height: 34px;
+}
+.header-main-top-left {
+  height: 34px !important;
+  z-index: 100;
+}
+.header-main-top-left ul li a:hover,
+.header-main-top-right ul li a:hover {
+  color: hsla(0, 0%, 100%, 0.7);
+  cursor: pointer;
+}
+.header-main-center {
+  height: 84px;
+}
+
+// header center
+.header-logoShopeeMall {
+  position: relative;
+  top: -28px;
+  left: 44px;
+  width: 150px;
+  height: 84px;
+  z-index: 10;
+}
+.header-logoShopeeMall img {
+  width: 92%;
+  height: 160%;
+}
+
+.shopee-searchBar {
+  margin-top: 20px;
+  width: 443px;
+}
+.header-search-bar {
+  background-color: #fff;
+}
+.bt-search {
+  background-color: #d0011b !important;
+  width: 60px;
+}
+
+.vr-facmen{
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.icon-fishoppingss{
+  font-size: 36px;
+  color: #fff;
+}
