@@ -1,0 +1,28 @@
+.flashSale {
+  background-color: #fff;
+  margin-top: 30px;
+}
+.flashSale-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px 6px 20px;
+}
+.flashSale-top-title {
+  display: flex;
+}
+.flashSale-top-title-img {
+  img {
+    width: 120px;
+    height: 30px;
+  
+  }
+}
+.flashSale-top-text a {
+  color: #ee4d2d;
+  font-size: 13px;
+  text-decoration: none;
+}
+.flashSale-top-countdown{
+  padding-left: 10px;
+  font-weight: 800;
+}

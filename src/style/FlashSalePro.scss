@@ -1,0 +1,48 @@
+.flashSalePro {
+  width: 200px;
+  height: 248px;
+  text-align: center;
+  a {
+    text-decoration: none;
+  }
+}
+.flashSale-img {
+  img {
+    height: 170px;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.flashSale-price {
+  font-size: 16px;
+  color: red;
+  font-weight: 800;
+  p {
+    margin-top: 12px;
+    margin-bottom: 6px;
+  }
+}
+.flashSale-progress {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress-bar {
+  background-color: red !important;
+  font-weight: 800;
+  padding: 4px;
+}
+.progress {
+  background: rgb(255 189 166) !important;
+}
+.colFlashSale {
+  width: 200px !important;
+}
+.colFlashSale:hover {
+  transform: translateZ(0);
+  z-index: 1;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0.8125rem 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
