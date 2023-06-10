@@ -19,3 +19,10 @@
 .slider-footer-list {
   width: 150px;
 }
+.slider-main:hover {
+  transform: translateZ(0);
+  z-index: 1;
+  border-color: rgba(0, 0, 0, 0.12);
+  box-shadow: 0 0 0.8125rem 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}

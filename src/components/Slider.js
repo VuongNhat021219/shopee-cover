@@ -115,10 +115,10 @@ function Slider() {
             </Col>
             <Col xs={6} md={4} style={{ padding: "0px" }}>
               <div className="imgSlider-right">
-                <img src={imgSliderRight} />
+                <img src={imgSliderRight} alt="anh"/>
               </div>
               <div className="imgSlider-right">
-                <img src={imgSliderRight2} />
+                <img src={imgSliderRight2} alt="anh"/>
               </div>
             </Col>
           </Row>
