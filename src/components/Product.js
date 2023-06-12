@@ -16,6 +16,7 @@ function Product(props) {
       price: "2.000",
       sold: "25000",
       discount: "Giảm 30%",
+      trust: "Yêu thích",
     },
     {
       id: 2,
@@ -25,6 +26,8 @@ function Product(props) {
         "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
       price: "2.000",
       sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
     },
     {
       id: 3,
@@ -34,6 +37,8 @@ function Product(props) {
         "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
       price: "2.000",
       sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
     },
     {
       id: 4,
@@ -43,6 +48,8 @@ function Product(props) {
         "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
       price: "2.000",
       sold: "25000",
+      discount: "",
+      trust: "",
     },
     {
       id: 5,
@@ -52,6 +59,8 @@ function Product(props) {
         "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
       price: "2.000",
       sold: "25000",
+      discount: "",
+      trust: "",
     },
     {
       id: 6,
@@ -61,6 +70,74 @@ function Product(props) {
         "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
       price: "2.000",
       sold: "25000",
+      discount: "",
+      trust: "",
+    },
+    {
+      id: 7,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
+    },
+    {
+      id: 8,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
+    },
+    {
+      id: 9,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
+    },
+    {
+      id: 9,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
+    },
+    {
+      id: 9,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
+    },
+    {
+      id: 9,
+      image:
+        "https://down-vn.img.susercontent.com/file/cc52f293cebd029c2ee6d84668c8e445_tn",
+      title:
+        "Khăn mặt khô Animerry dùng 1 lần lau khô, lau ướt , Giấy lau mặt dùng một lần",
+      price: "2.000",
+      sold: "25000",
+      discount: "Giảm 30%",
+      trust: "Yêu thích",
     },
   ];
   return (
@@ -71,6 +148,7 @@ function Product(props) {
             <h4>
               Danh Sách Sản Phẩm <Badge bg="secondary">New</Badge>
             </h4>
+            <div className="product-top-bgroud"></div>
           </div>
         </div>
         <div className="product-content">

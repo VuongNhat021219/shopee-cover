@@ -2,6 +2,7 @@
   img {
     width: 188px;
     height: 188px;
+    margin-left: 4px;
   }
 }
 .productList:hover {
@@ -12,6 +13,8 @@
   cursor: pointer;
 }
 .productList {
+  position: relative;
+
   width: 190px !important;
   height: 282px !important;
   a {
@@ -63,4 +66,28 @@
 .productList-footer,
 .productList-content {
   margin: 0 8px;
+}
+
+.productList-hastaf {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  top: 0.625rem;
+  max-width: 70%;
+  flex-direction: column;
+  align-items: flex-start;
+
+  left: 0;
+  background-color: #ee4d2d;
+  span {
+    font-weight: 500;
+    font-size: 11px;
+    color: #fff;
+  }
+}
+.productList-link {
+  background: #fff3f2;
+}
+.progress-bar {
+  overflow: initial!important;
 }

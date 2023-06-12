@@ -3,12 +3,16 @@
   margin-top: 30px;
 }
 .product-top-text {
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
   color: red;
   font-weight: bold;
   span {
-    background: red!important;
+    background: red !important;
     margin-bottom: 8px;
   }
+}
+.product-top-bgroud {
+  height: 6px;
+  background: #ee4d2d;
 }

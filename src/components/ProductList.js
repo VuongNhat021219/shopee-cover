@@ -11,10 +11,13 @@ function ProductList(props) {
     <>
       {dataProduct.map((item, index) => (
         <Col className="productList" key={index}>
-          <div>
-            <Link to="/">
+          <div className="productList-link">
+            <Link to="/" >
               <div className="productList-img">
                 <img src={item.image} alt={item.title} />
+              </div>
+              <div className="productList-hastaf">
+                <span>{item.trust}</span>
               </div>
               <div className="productList-content">
                 <div className="productList-title">
